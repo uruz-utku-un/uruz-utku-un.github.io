@@ -1,0 +1,164 @@
+# Uruz Community License (UCL) – Version 1.0
+Copyright © 2025 Uruz Utku Ün
+
+Not: Bu lisansın resmi ve bağlayıcı metni Türkçedir.
+Bilgilendirme amacıyla yapılabilecek çeviriler bağlayıcı değildir.
+
+---
+
+Bu lisans, “uruz-utku-un” tarafından oluşturulan bu web sitesinin içeriği, yapısı ve sunumuna uygulanır.
+
+---
+
+## 1. Amaç ve Kapsam
+
+Bu lisans, aksi ayrıca belirtilmedikçe bu web sitesine ait içerik, yapı,
+sunum ve bu siteyle birlikte dağıtılan kaynak kodu için geçerlidir.
+
+Bu lisansın amacı; bu web sitesinin ve içeriğinin topluluk tarafından
+incelenmesini, kullanılmasını ve geliştirilmesini sağlamak; ancak ticari
+sömürüyü, kaynak gizlemeyi ve asıl sahibin görünmez kılınmasını
+engellemektir.
+
+Bu lisans;
+
+- Metinleri
+- Site yapısını
+- Tasarım düzenini
+- Genel içerik organizasyonunu
+
+kapsar. Aksi belirtilmedikçe tüm içerik bu lisans altındadır.
+
+---
+
+## 2. Verilen Haklar
+
+Bu lisans kapsamında kullanıcılar aşağıdaki haklara sahiptir:
+
+- Web sitesini ve içeriğini kopyalayabilir
+- İçeriği inceleyebilir
+- Metinleri düzenleyebilir ve uyarlayabilir
+- Kişisel, eğitimsel veya topluluk temelli projelerde kullanabilir
+- Kaynak kodu veya içeriği herkese açık platformlarda barındırabilir
+
+Bu haklar, aşağıdaki koşullara tam uyum şartıyla geçerlidir.
+
+---
+
+## 3. Zorunlu Atıf ve Yasal Not (Değiştirilemez)
+
+Aşağıdaki ifade, bu web sitesinde veya türevlerinde kaldırılamaz,
+değiştirilemez veya gizlenemez:
+
+“Bu web sitesi, topluluğa açık bir lisans altında ‘uruz-utku-un’ tarafından
+oluşturulmuştur.”
+Bu ifade, footer veya eşdeğer görünür bir alanda yer almak zorundadır.
+
+Bu madde, lisansın temel şartıdır ve ihlali lisansın otomatik olarak sona
+ermesine neden olur.
+
+---
+
+## 4. Ticari Kullanım Yasağı
+
+Bu web sitesi veya bu lisans altındaki herhangi bir türevi, doğrudan veya
+dolaylı ticari kazanç amacıyla kullanılamaz.
+
+Bu kapsamda yasak olanlar şunlardır:
+
+- Web sitesinin veya türevlerinin ücret karşılığında satılması
+- Ücretli erişim, abonelik, “paywall” veya benzeri kısıtlamalarla sunulması
+- Bağış, ödeme veya destek talebinin bu web sitesine veya türevine erişim,
+  kullanım veya edinim şartı haline getirilmesi
+- Web sitesinin veya türevlerinin, bağış odaklı bir ürün, hizmet veya platform
+  olarak konumlandırılması
+
+### Bağışlara İlişkin İstisna (Önemli Açıklama)
+
+Aşağıdaki durumlar ticari kullanım sayılmaz ve bu lisans kapsamında serbesttir:
+
+- Web sitesini veya içeriğini kullanan bir kişinin:
+	- Kendi kişisel çalışmalarını,
+	- Genel geliştirici faaliyetlerini,
+	- Bağımsız üretimini desteklemek amacıyla gönüllü bağış kabul etmesi
+
+- Bu bağışların:
+	- Web sitesine erişim için zorunlu olmaması
+	- Ürünün veya türevin kullanımını kısıtlamaması
+	- Bağış yapılmaması halinde herhangi bir işlev kaybına yol açmaması
+
+Bağışın, ürüne değil kişiye yönelik olduğu durumlar bu lisansın ticari kullanım
+yasağı kapsamında değerlendirilmez.
+Bu tür dolaylı faydalar, bu lisans kapsamında ticari kullanım olarak
+değerlendirilmez.
+
+### Ayrımın Temel İlkesi
+
+Şu ayrım esastır:
+
+- Kabul edilebilir:
+	“Bu projeyi kullananlar isterlerse beni destekleyebilir.”
+
+- Kabul edilemez:
+	“Bu projeye erişmek / kullanmak / sürdürmek için bağış gereklidir.”
+
+Bu ilkenin ihlali, ticari kullanım yasağının ihlali sayılır.
+
+---
+
+## 5. Türev Çalışmalar ve Yeniden Lisanslama
+
+Aşağıdaki koşullar sağlandığında, türev bir çalışma kendi lisansı altında
+yayınlanabilir:
+
+- Orijinal yapıya önemli ve ayırt edilebilir katkılar yapılmış olmalıdır
+  	(örneğin: yeni modüller, ciddi işlevsel genişlemeler, kapsamlı yapısal
+        değişiklikler)
+- Türev çalışma, orijinal eserin basit bir kopyası veya yüzeysel düzenlemesi
+  olmamalıdır
+- Bu lisansın 3. maddesinde belirtilen atıf ifadesi korunmalıdır
+
+Bu koşullar sağlanmadığı sürece, türev çalışmalar bu lisans altında kalır.
+
+--- 
+
+## 6. Atıfın Sürekliliği
+
+Türev çalışma farklı bir lisansla yayınlansa dahi, bu projenin aşağıdaki
+şekilde anılması zorunludur:
+	“Bu çalışma, ‘uruz-utku-un’ tarafından oluşturulan topluluk lisanslı bir
+        projeden türetilmiştir.”
+
+Atıfın biçimi değiştirilebilir; ancak anlamı ve görünürlüğü korunmalıdır.
+
+---
+
+## 7. Garanti Reddi
+
+Bu web sitesi ve içerik “olduğu gibi” sunulmaktadır.
+Herhangi bir açık garanti verilmez.
+
+Yazar, bu içeriğin kullanımından doğabilecek doğrudan veya dolaylı zararlardan
+sorumlu tutulamaz.
+
+---
+
+## 8. Lisansın Sona Ermesi
+
+Bu lisansın herhangi bir maddesinin ihlali halinde, verilen tüm haklar derhal
+ve otomatik olarak sona erer.
+
+---
+
+## 9. Son Hüküm
+
+Bu lisans, açık topluluk paylaşımını teşvik eder;
+ancak emeğin görünmez kılınmasına ve ticari sömürüye izin vermez.
+
+### Lisans Kısa Tanımı (isteğe bağlı footer için)
+
+Uruz Community License (UCL-1.0)
+Ticari kullanım yasaktır. Atıf zorunludur.
+
+Bu lisans, özgür yazılım lisansı olma iddiasında değildir; topluluk temelli,
+ticari olmayan paylaşımı düzenlemek amacıyla hazırlanmıştır.
