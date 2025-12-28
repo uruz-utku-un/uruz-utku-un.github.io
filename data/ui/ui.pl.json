@@ -1,0 +1,81 @@
+{
+    "ui": {
+        "header": {
+            "language": {
+                "label": "Język",
+                "help": "Wybierz język, w którym będzie wyświetlana zawartość strony."
+            }
+        },
+
+        "main": {
+            "label": {
+                "title": "uruz",
+                "description": "Nie gonię za prestiżem; dążę do mistrzostwa. Wyniki są tymczasowe; metody pozostają. Dzielę się tym, co próbuję, czego się uczę i czasem tym, co świadomie pozostawiam niedokończone a przede wszystkim każdego dnia budzę się na nowy dzień.",
+                "note": "Obecnie jestem w okresie przymusowej przerwy. Zanim rozpocznę pracę na pełen etat w branży, uczę się, eksperymentuję i tworzę projekty. Niektóre są ukończone, inne celowo pozostają niepełne."
+            },
+            "github": {
+                "description": "- prace profesjonalne"
+            },
+            "itchio": {
+                "description": "- prace profesjonalne (jest zaplanowane)"
+            },
+            "linkedin": {
+                "description": "- profil zawodowy"
+            },
+            "patreon": {
+                "description": "- teksty, proces i szkice (jest zaplanowane)"
+            },
+            "spotify": {
+                "description": "- prywatne odsłuchy"
+            }
+        },
+
+        "news": {
+            "label": {
+                "title": "Aktualności",
+                "description": "Bieżący stan i krótkie ogłoszenia."
+            },
+            "linkpast": {
+                "description": "Zobacz historię aktualności."
+            }
+        },
+
+        "roadmap": {
+            "label": {
+                "title": "Mapa drogowa",
+                "description": "Planowane prace i cele."
+            },
+            "link": {
+                "description": "Zobacz mapę drogową."
+            },
+            "linkpast": {
+                "description": "Wyświetl historię mapy drogowej."
+            }
+        },
+
+        "milestones": {
+            "label": {
+                "title": "Kamienie milowe",
+                "description": "Wybrane kamienie milowe."
+            },
+            "link": {
+                "description": "Zobacz wyróżnione kamienie milowe."
+            }
+        },
+
+        "footer": {
+            "legal": {
+                "note": "Ta strona internetowa została stworzona przez „uruz-utku-un” i jest udostępniana społeczności na podstawie licencji Uruz Community License (UCL-1.0)."
+            },
+            "license":  {
+                "label": "Licencja"
+            },
+            "termsofuse":  {
+                "label": "Warunki korzystania"
+            },
+            "usermanual": {
+                "label": "Instrukcja użytkowania"
+            }
+        }
+    }
+}
