@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+
+    <!--
+    SEO: Arama motoru snippet'inde (arama motorunun kısa özet bloğunda)
+    görünecek site açıklaması (tek satır olması daha doğru)
+    -->
+    <meta name="description"
+        content="Uruz web sitesi kullanım koşulları ve yasal bilgilendirme metni.">
+
+    <!-- CSP ayrıntılar: docs/design/security.md -->
+    <meta http-equiv="Content-Security-Policy"
+        content="
+            default-src 'self';
+            script-src 'self';
+            style-src 'self';
+            img-src 'self' data:;
+            font-src 'self';
+            object-src 'none';
+            base-uri 'self';
+        ">
+
+    <!--
+    duyarlı tasarım (responsive design)
+    ayrıntılar (details): docs/design/architecture.md
+    -->
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Uruz – Kullanım Koşulları
+    </title>
+
+    <link rel="stylesheet" href="../../src/css/style.css">
+</head>
+<body>
+
+    <header class="topbar">
+        <!-- ana sayfaya (index.html) yönlendirir. -->
+        <a href="/" class="brand">uruz</a>
+    </header>
+
+    <main class="container">
+
+        <!-- yasal belge (yasal belge) -->
+        <section class="card" id="document-section">
+            <h1>Kilometre Taşları</h1>
+            <p></p>
+            <h3>2025</h3>
+            <p>- 2025.12.29 - Kişisel websitesi <strong>"uruz-utku-un.github.io" v-0.1.0</strong> yayınlandı.</p>
+            <p>- 2025.12.28 - <strong>"uruz-html-compiler" v-0.1.0</strong> aracı yayınlandı.</p>
+            <p>- 2025.01.14 - <strong>"uruz-image-resizer" v-0.1.0</strong> github reposu yayınlandı.</p>
+        </section>
+
+        <!-- footer -->
+        <footer class="card site-footer">
+            <!--
+            yasal (legal) / bilgilendirici (informative)
+             değiştirilmemeli! oku: LICENSE | must not change! read: LICENSE
+            -->
+            <div class="footer-legal">
+                <p class="footer-note muted" data-i18n="ui.footer.legal.note">
+                    Bu web sitesi, topluluğa açık
+                    Uruz Community License (UCL-1.0) kapsamında
+                    ‘uruz-utku-un’ tarafından oluşturulmuştur.
+                </p>
+
+                <nav class="footer-nav">
+                    <ul>
+                        <li><a href="../legal/license.html"
+                            target="_blank"
+                            rel="noopener">
+                            <span data-i18n="ui.footer.license.label">
+                                Lisans
+                            </span>
+                        </a></li>
+                        <li><a href="../legal/terms-of-use.html"
+                            target="_blank"
+                            rel="noopener">
+                            <span data-i18n="ui.footer.termsofuse.label">
+                                Kullanım Koşulları
+                            </span>
+                        </a></li>
+                        <!--
+                        <li><a href="./pages/legal/user-manual.html"
+                            target="_blank"
+                            rel="noopener">
+                            <span data-i18n="ui.footer.usermanual.label">
+                                Kullanma Kılavuzu
+                            </span>
+                        </a></li>
+                        -->
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- sahip (ownership) / imza (signature) -->
+            <div class="footer-ownership">
+                <hr>
+                <!--
+                'start' or 'start-current': 2025 or 2025-20XX
+                ayrıntılar (details): docs/design/architecture.md
+                -->
+                <span class="footer-copy muted">
+                    © <span id="footer-year">2025</span> Uruz Utku Ün
+                </span>
+            </div>
+        </footer>
+
+    </main>
+
+</body>
+</html>
