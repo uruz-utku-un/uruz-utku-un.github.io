@@ -1,0 +1,81 @@
+{
+    "ui": {
+        "header": {
+            "language": {
+                "label": "Dil",
+                "help": "Site içeriğinin görüntüleneceği dili seçin."
+            }
+        },
+
+        "main": {
+            "label": {
+                "title": "uruz",
+                "description": "Ün peşinde değilim; ustalık peşindeyim. Sonuç geçicidir; yöntem kalıcı. Denediğim şeyleri, öğrendiklerimi ve bazen bilinçli olarak yarım bıraktıklarımı paylaşıyorum; ve en önemlisi her gün yeni bir güne uyanıyorum.",
+                "note": "Şu anda zorunlu bir ara dönemindeyim. Sektörde tam zamanlı çalışmadan önce, öğreniyor, deniyor ve projeler üretiyorum. Bazıları tamamlandı, bazıları bilinçli olarak yarım."
+            },
+            "github": {
+                "description": "- profesyonel çalışmalar"
+            },
+            "itchio": {
+                "description": "- profesyonel çalışmalar (planlandı)"
+            },
+            "linkedin": {
+                "description": "- profesyonel profil"
+            },
+            "patreon": {
+                "description": "- yazılar, süreç ve çizimler (planlandı)"
+            },
+            "spotify": {
+                "description": "- kişisel dinleme"
+            }
+        },
+
+        "news": {
+            "label": {
+                "title": "Gündem",
+                "description": "Güncel durum ve kısa duyurular."
+            },
+            "linkpast": {
+                "description": "Gündem geçmişini görüntüle."
+            }
+        },
+
+        "roadmap": {
+            "label": {
+                "title": "Yol Haritası",
+                "description": "Planlanan çalışmalar ve hedefler."
+            },
+            "link": {
+                "description": "Yol haritasını görüntüle."
+            },
+            "linkpast": {
+                "description": "Yol haritası geçmişini görüntüle."
+            }
+        },
+
+        "milestones": {
+            "label": {
+                "title": "Kilometre Taşları",
+                "description": "Öne çıkan kilometre taşları."
+            },
+            "link": {
+                "description": "Öne çıkan kilometre taşlarını görüntüle."
+            }
+        },
+
+        "footer": {
+            "legal": {
+                "note": "Bu web sitesi, topluluğa açık Uruz Community License (UCL-1.0) kapsamında ‘uruz-utku-un’ tarafından oluşturulmuştur."
+            },
+            "license":  {
+                "label": "Lisans"
+            },
+            "termsofuse":  {
+                "label": "Kullanım Koşulları"
+            },
+            "usermanual": {
+                "label": "Kullanma Kılavuzu"
+            }
+        }
+    }
+}
