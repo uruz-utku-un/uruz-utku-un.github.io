@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+
+    <!--
+    SEO: Arama motoru snippet'inde (arama motorunun kısa özet bloğunda)
+    görünecek site açıklaması (tek satır olması daha doğru)
+    -->
+    <meta name="description"
+        content="Uruz web sitesi kullanım koşulları ve yasal bilgilendirme metni.">
+
+    <!-- CSP ayrıntılar: docs/design/security.md -->
+    <meta http-equiv="Content-Security-Policy"
+        content="
+            default-src 'self';
+            script-src 'self';
+            style-src 'self';
+            img-src 'self' data:;
+            font-src 'self';
+            object-src 'none';
+            base-uri 'self';
+        ">
+
+    <!--
+    duyarlı tasarım (responsive design)
+    ayrıntılar (details): docs/design/architecture.md
+    -->
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Uruz – Kullanım Koşulları
+    </title>
+
+    <link rel="stylesheet" href="../../src/css/style.css">
+</head>
+<body>
+
+    <header class="topbar">
+        <!-- ana sayfaya (index.html) yönlendirir. -->
+        <a href="/" class="brand">uruz</a>
+    </header>
+
+    <main class="container">
+
+        <!-- yasal belge (yasal belge) -->
+        <section class="card" id="document-section">
+              <h1>Yol Haritası – 2026</h1>
+              <p></p>
+              <h2>Kısa ve Orta Vade</h2>
+              <p></p>
+              <h3>uruz-utku-un.github.io v-0.1.0</h3>
+              <p>- Kişisel web sitesinin genel kontrollerinin yapılması.</p>
+              <p>- Çoklu dil desteğinin içerik bölümleri için yapılandırılması.</p>
+              <p>- CSS yapısının gözden geçirilmesi ve revize edilmesi.</p>
+              <p></p>
+              <h3>uruz-html-compiler v-0.1.0</h3>
+              <p>- Zaman kısıtı nedeniyle çalışan ancak sınırlı kapsamlı bir taslak olarak kaldı.</p>
+              <p>- Kişisel web sitesi inşa sürecinde ihtiyaç duyulduğu için JavaScript ile geliştirildi.</p>
+              <p>- Mevcut dil korunabilir; ancak Python ile yeniden yazılması planlanıyor.</p>
+              <p>- Kullanım belgeleri eksik.</p>
+              <p>- v1.0.0 sürümüyle birlikte dokümantasyon eklenmesi hedefleniyor.</p>
+              <p></p>
+              <h3>uruz-image-resizer v-0.1.0</h3>
+              <p>- Kısa bir zaman aralığında araştırma ve öğrenme amacıyla geliştirildi.</p>
+              <p>- Mevcut haliyle modüler değil.</p>
+              <p>- Projenin parçalara ayrılarak modüler bir yapıyla yeniden inşa edilmesi planlanıyor.</p>
+              <p>- Şu an yalnızca `.svg` uzantılı dosyalar için garanti destek sağlıyor.</p>
+              <p>- Yeni sürümle birlikte birden fazla görsel formatının desteklenmesi hedefleniyor.</p>
+              <p>- Bu araç, üretimden ziyade öğrenme amacıyla ortaya çıkarılmıştır.</p>
+              <p>- v1.0.0 sürümünde de bu yaklaşım korunacaktır.</p>
+              <p></p>
+              <h2>Uzun Vade</h2>
+              <p>- Daha önce başlanan ancak yarım bırakılan, Go tabanlı bir sunucu oluşturucu araca geri dönülmesi planlanıyor.</p>
+              <p>- Yakın zamanda başlatılan, ancak zorunlu bir dönem nedeniyle askıya alınan, <strong>Linux Fedora</strong> için geliştirilmiş <storng>shell tabanlı NVIDIA sürücü yönetim aracının</strong> tamamlanması planlanıyor.
+        </section>
+
+        <!-- footer -->
+        <footer class="card site-footer">
+            <!--
+            yasal (legal) / bilgilendirici (informative)
+             değiştirilmemeli! oku: LICENSE | must not change! read: LICENSE
+            -->
+            <div class="footer-legal">
+                <p class="footer-note muted" data-i18n="ui.footer.legal.note">
+                    Bu web sitesi, topluluğa açık
+                    Uruz Community License (UCL-1.0) kapsamında
+                    ‘uruz-utku-un’ tarafından oluşturulmuştur.
+                </p>
+
+                <nav class="footer-nav">
+                    <ul>
+                        <li><a href="../legal/license.html"
+                            target="_blank"
+                            rel="noopener">
+                            <span data-i18n="ui.footer.license.label">
+                                Lisans
+                            </span>
+                        </a></li>
+                        <li><a href="../legal/terms-of-use.html"
+                            target="_blank"
+                            rel="noopener">
+                            <span data-i18n="ui.footer.termsofuse.label">
+                                Kullanım Koşulları
+                            </span>
+                        </a></li>
+                        <!--
+                        <li><a href="./pages/legal/user-manual.html"
+                            target="_blank"
+                            rel="noopener">
+                            <span data-i18n="ui.footer.usermanual.label">
+                                Kullanma Kılavuzu
+                            </span>
+                        </a></li>
+                        -->
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- sahip (ownership) / imza (signature) -->
+            <div class="footer-ownership">
+                <hr>
+                <!--
+                'start' or 'start-current': 2025 or 2025-20XX
+                ayrıntılar (details): docs/design/architecture.md
+                -->
+                <span class="footer-copy muted">
+                    © <span id="footer-year">2025</span> Uruz Utku Ün
+                </span>
+            </div>
+        </footer>
+
+    </main>
+
+</body>
+</html>
