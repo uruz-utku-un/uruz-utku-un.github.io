@@ -12,7 +12,7 @@ const link_keys = [
 const link_fallback = {
     link_github: "https://github.com/uruz-utku-un",
     //link_itchio: "#",
-    link_linkedin: "https://www.linkedin.com/in/utku-%C3%BCn-03b3043a2/",
+    link_linkedin: "https://www.linkedin.com/in/utku-un-03b3043a2/",
     //link_patreon: "#",
     link_spotify: "https://open.spotify.com/playlist/7EZEIPDHJzfCDihY0ScxL5",
 };
