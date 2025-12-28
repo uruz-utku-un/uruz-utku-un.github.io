@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+
+    <!--
+    SEO: Arama motoru snippet'inde (arama motorunun kısa özet bloğunda)
+    görünecek site açıklaması (tek satır olması daha doğru)
+    -->
+    <meta name="description"
+        content="Uruz'un ürettiği yazılar, süreç notları ve kişisel çalışmaları. Yazılım, üretim ve düşünce odaklı içerikler.">
+
+    <!-- CSP ayrıntılar: docs/design/security.md -->
+    <meta http-equiv="Content-Security-Policy"
+        content="
+            default-src 'self';
+            script-src 'self';
+            style-src 'self';
+            img-src 'self' data:;
+            font-src 'self';
+            object-src 'none';
+            base-uri 'self';
+        ">
+
+    <!--
+    duyarlı tasarım (responsive design)
+    ayrıntılar (details): docs/design/architecture.md
+    -->
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>
+        uruz - yazılar, süreçler, üretim
+    </title>
+
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+
+    <!-- topbar: language select -->
+    <header class="topbar">
+        <div class="topbar-right">
+            <label for="language-select" data-i18n="ui.header.language.label">
+                Dil
+            </label>
+            <select id="language-select" aria-describedby="language-help">
+                <option value="tr" lang="tr">Türkçe</option>
+                <option value="en" lang="en">English</option>
+                <option value="pl" lang="pl">Polski</option>
+            </select>
+        </div>
+        <!-- CSS ile gizlenir ve gösterilir. -->
+        <!-- ayrıntılar (details): docs/design/architecture.md -->
+        <!--
+        <span class="visually-hidden"
+            id="language-help"
+            data-i18n="ui.header.language.help">
+            Site içeriğinin görüntüleneceği dili seçin.
+        </span>
+        -->
+    </header>
+
+    <main class="container">
+
+        <!-- main section -->
+        <section class="card" id="main-section" >
+            <h1 class="accent" data-i18n="ui.main.label.title">
+                uruz
+            </h1>
+            <p class="muted" data-i18n="ui.main.label.description">
+                Ün peşinde değilim; ustalık peşindeyim.
+                Sonuç geçicidir; yöntem kalıcı.
+                Denediğim şeyleri, öğrendiklerimi ve bazen bilinçli
+                olarak yarım bıraktıklarımı paylaşıyorum;
+                ve en önemlisi her gün yeni bir güne uyanıyorum.
+            </p>
+            <hr>
+            <p data-i18n="ui.main.label.note">
+                Şu anda zorunlu bir ara dönemindeyim.
+                Sektörde tam zamanlı çalışmadan önce, öğreniyor,
+                deniyor ve projeler üretiyorum.
+                Bazıları tamamlandı, bazıları bilinçli olarak yarım.
+            </p>
+
+            <nav class="main-nav">
+                <ul class="list nav">
+                    <!--
+                    güvenlik ve SEO notu: docs/design/security.md
+                    linkler için notlar: docs/design/architecture.md
+                    -->
+                    <li>
+                        <a id="link_github"
+                            href="https://github.com/uruz-utku-un"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            Github
+                        </a>
+                        <span class="muted" data-i18n="ui.main.github.description">
+                            - profesyonel çalışmalar
+                        </span>
+                    </li>
+                    <li>
+                        <a id="link_linkedin"
+                            href="https://www.linkedin.com/in/utku-%C3%BCn-03b3043a2/"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            LinkedIn
+                        </a>
+                        <span class="muted" data-i18n="ui.main.linkedin.description">
+                            - profesyonel profil
+                        </span>
+                    </li>
+                    <li>
+                        <a id="link_spotify"
+                            href="https://open.spotify.com/user/uruz_u"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            Spotify
+                        </a>
+                        <span class="muted" data-i18n="ui.main.spotify.description">
+                            - kişisel dinleme
+                        </span>
+                    </li>
+                    <!--
+                    <li>
+                        <a id="link_itchio" href="#">
+                            Itch.io
+                        </a>
+                        <span class="muted" data-i18n="ui.main.itchio.description">
+                            - profesyonel çalışmalar (planlandı)
+                        </span>
+                    </li>
+                    <li>
+                        <a id="link_patreon" href="#">
+                            Patreon
+                        </a>
+                        <span class="muted" data-i18n="ui.main.patreon.description">
+                            - yazılar, süreç ve çizimler (planlandı)
+                        </span>
+                    </li>
+                    -->
+                </ul>
+            </nav>
+        </section>
+
+        <!-- news -->
+        <section class="card" id="news_section">
+            <h2 class="accent" data-i18n="ui.news.label.title">
+                Gündem
+            </h2>
+            <p class="muted" data-i18n="ui.news.label.description">
+                Güncel durum ve kısa duyurular.
+            </p>
+
+            <ul class="list news">
+                <li>
+                    <span class="date muted" data-i18n="news.label.date_01">
+                        2025.12.08 - 2026.07.08
+                    </span>
+                    <p data-i18n="news.label.text_01">
+                        Bu tarihler arasında zorunlu askerlik görevim nedeniyle
+                        aktif çalışma yapmayacağım.
+                        Temmuz 2026 itibariyle yeniden iş tekliflerine açık
+                        olmayı planlıyorum.
+                        Dönüş sonrası planladığım yol için
+                        Yol Haritası bölümüne bakabilirsiniz.
+                    </p>
+                    <a href="#roadmap_section"
+                    data-i18n="ui.roadmap.label.title">
+                        Yol Haritası
+                    </a>
+                </li>
+            </ul>
+
+            <a id="link_news"
+                data-i18n="ui.news.linkpast.description"
+                href="./pages/content/news-pas.html">
+                Gündem geçmişini görüntüle.
+            </a>
+        </section>
+
+        <!-- roadmap -->
+        <section class="card" id="roadmap_section">
+            <h2 class="accent" data-i18n="ui.roadmap.label.title">
+                Yol Haritası
+            </h2>
+            <p class="muted" data-i18n="ui.roadmap.label.description">
+                Planlanan çalışmalar ve hedefler.
+            </p>
+
+            <ul class="list">
+                <li><a id="link_roadmap"
+                    data-i18n="ui.roadmap.link.description"
+                    href="./pages/content/roadmap.html">
+                    Yol haritasını görüntüle.
+                </a></li>
+                <!--
+                <li><a id="link_past_roadmap"
+                    data-i18n="ui.roadmap.linkpast.description"
+                    href="./pages/content/roadmap-pas.html">
+                    Yol haritası geçmişini görüntüle.
+                </a></li>
+                -->
+            </ul>
+        </section>
+
+        <!-- milestones -->
+        <section class="card" id="milestones_section">
+            <h2 class="accent" data-i18n="ui.milestones.label.title">
+                Kilometre Taşları
+            </h2>
+            <p class="muted" data-i18n="ui.milestones.label.description">
+                Öne çıkan kilometre taşları.
+            </p>
+
+            <a id="link_milestones"
+                data-i18n="ui.milestones.link.description"
+                href="./pages/content/milestones.html">
+                Öne çıkan kilometre taşlarını görüntüle.
+            </a>
+        </section>
+
+        <!-- footer -->
+        <footer class="card site-footer">
+            <!--
+            yasal (legal) / bilgilendirici (informative)
+             değiştirilmemeli! oku: LICENSE | must not change! read: LICENSE
+            -->
+            <div class="footer-legal">
+                <p class="footer-note muted" data-i18n="ui.footer.legal.note">
+                    Bu web sitesi, topluluğa açık
+                    Uruz Community License (UCL-1.0) kapsamında
+                    ‘uruz-utku-un’ tarafından oluşturulmuştur.
+                </p>
+
+                <nav class="footer-nav">
+                    <ul>
+                        <li><a href="./pages/legal/license.html"
+                            target="_blank"
+                            rel="noopener">
+                            <span data-i18n="ui.footer.license.label">
+                                Lisans
+                            </span>
+                        </a></li>
+                        <li><a href="./pages/legal/terms-of-use.html"
+                            target="_blank"
+                            rel="noopener">
+                            <span data-i18n="ui.footer.termsofuse.label">
+                                Kullanım Koşulları
+                            </span>
+                        </a></li>
+                        <!--
+                        <li><a href="./pages/legal/user-manual.html"
+                            target="_blank"
+                            rel="noopener">
+                            <span data-i18n="ui.footer.usermanual.label">
+                                Kullanma Kılavuzu
+                            </span>
+                        </a></li>
+                        -->
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- sahip (ownership) / imza (signature) -->
+            <div class="footer-ownership">
+                <hr>
+                <!--
+                'start' or 'start-current': 2025 or 2025-20XX
+                ayrıntılar (details): docs/design/architecture.md
+                -->
+                <span class="footer-copy muted">
+                    © <span id="footer-year">2025</span> Uruz Utku Ün
+                </span>
+            </div>
+        </footer>
+
+    </main>
+
+    <!-- main JS file and process -->
+    <script type="module" src="./src/js/main.js"></script>
+
+</body>
+</html>
