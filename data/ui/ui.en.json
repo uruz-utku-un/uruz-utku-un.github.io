@@ -1,0 +1,81 @@
+{
+    "ui": {
+        "header": {
+            "language": {
+                "label": "Language",
+                "help": "Select the language in which the site content will be displayed."
+            }
+        },
+
+        "main": {
+            "label": {
+                "title": "uruz",
+                "description": "I am not chasing prestige; I am chasing mastery. Results are temporary; methods endure. I share what I try, what I learn, and sometimes what I deliberately leave unfinished and, above all, I wake up to a new day every morning.",
+                "note": "I am currently in a mandatory break period. Before working full-time in the industry, I am learning, experimenting, and producing projects. Some are finished; some are intentionally left incomplete."
+            },
+            "github": {
+                "description": "- professional work"
+            },
+            "itchio": {
+                "description": "- professional work (planned)"
+            },
+            "linkedin": {
+                "description": "- professional profile"
+            },
+            "patreon": {
+                "description": "- writings, process, and sketches (planned)"
+            },
+            "spotify": {
+                "description": "- personal listening"
+            }
+        },
+
+        "news": {
+            "label": {
+                "title": "News",
+                "description": "Current status and short announcements."
+            },
+            "linkpast": {
+                "description": "View news history."
+            }
+        },
+
+        "roadmap": {
+            "label": {
+                "title": "Roadmap",
+                "description": "Planned work and goals."
+            },
+            "link": {
+                "description": "View the roadmap"
+            },
+            "linkpast": {
+                "description": "View the roadmap history."
+            }
+        },
+
+        "milestones": {
+            "label": {
+                "title": "Milestones",
+                "description": "Highlighted milestones."
+            },
+            "link": {
+                "description": "View highlighted milstones."
+            }
+        },
+
+        "footer": {
+            "legal": {
+                "note": "This website was created by ‘uruz-utku-un’ and is made available to the community under the Uruz Community License (UCL-1.0)."
+            },
+            "license":  {
+                "label": "License"
+            },
+            "termsofuse":  {
+                "label": "Terms of Use"
+            },
+            "usermanual": {
+                "label": "User Manual"
+            }
+        }
+    }
+}
