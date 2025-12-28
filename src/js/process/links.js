@@ -14,7 +14,7 @@ const link_fallback = {
     //link_itchio: "#",
     link_linkedin: "https://www.linkedin.com/in/utku-%C3%BCn-03b3043a2/",
     //link_patreon: "#",
-    link_spotify: "https://open.spotify.com/user/uruz_u",
+    link_spotify: "https://open.spotify.com/playlist/7EZEIPDHJzfCDihY0ScxL5",
 };
 
 // DEBUG modunda çalışırken verilen tüm argümanları konsola yazdırır.
