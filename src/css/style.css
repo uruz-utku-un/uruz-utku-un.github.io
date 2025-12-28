@@ -1,1 +1,133 @@
+:root {
+    --bg: #fafafa;                      /* ana arkaplan rengi */
+    --card: #111;                       /* kart rengi */
+    --text: #eaeaea;                    /* metin rengi */
+    --accent: #00d4c7;                  /* vurgu rengi */
+    --muted: rgba(255,255,255,.6);      /* silik vurgu */
+    --radius: 6px;                      /* köşe yumuşatma miktarı */
+    --max-width: 640px;
+}
 
+body {
+    font-family: system-ui, sans-serif;
+    background: var(--bg);
+    color: #222;
+    line-height: 1.6;  /* satırlar arası boşluk */
+}
+
+/* üst bar (dil seçme, ...)*/
+.topbar {
+    max-width: var(--max-width);
+    margin: 1.5rem auto;  /* kutuya ait dış boşluk */
+    padding: 0 1rem;      /* kutuya ait iç boşluk */
+
+    display: flex;  /* bu kutuyu esnek bir kutu yapar. */
+    justify-content: flex;  /* içindeki elemanları sağ tarafa yaslar. */
+    align-items: center;  /* içindeki elemanları dikey eksende hizalar. */
+    gap: 0.5rem;  /* içindeki elemanlar arasındaki boşluk */
+}
+
+.topbar-right {
+    margin-left: auto;
+    display: flex;  /* bu kutuyu esnek bir kutu yapar. */
+    align-items: center;  /* içindeki elemanları dikey eksende hizalar. */
+    gap: 0.5rem;  /* içindeki elemanlar arasındaki boşluk */
+}
+
+/* ek sayfalar (legal, terms, vs.) header */
+.topbar .brand {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.topbar .brand:hover {
+    color: var(--text);
+}
+
+/* ana taşıyıcı */
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* kartlar (footer da dahil) */
+.card {
+    background: var(--card);
+    color: var(--text);
+    padding: 2rem;
+    margin-bottom: 2rem;   /* alt dış boşluk */
+    border-radius: var(--radius);
+}
+
+/* metinler */
+.accent {
+    color: var(--accent);
+}
+
+.muted {
+    color: var(--muted);  /* opacity: .6; - html içinde <p></p> için */
+}
+
+/* linkler */
+a {
+    color: var(--text);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--accent);
+}
+
+/* listeler */
+.list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list li {
+    margin-bottom: .5rem;
+}
+
+/* listeler: Navigasyon */
+.nav {
+    margin-top: 2rem;  /* üst dış boşluk */
+}
+
+/* listeler: Haberler */
+.news {
+    margin-top: 1rem;
+}
+
+.news .date {
+    font-size: 0.85em;
+    margin-right: 0.5rem;
+}
+
+/* footer */
+.site-footer {
+    margin-top: 2rem;
+}
+
+.footer-note {
+    margin-bottom: 1rem;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* duyarlı tasarım (responsive) - daha küçük ekranlar için */
+@media (max-width: 480px) {
+    .card {
+        padding: 1.5rem;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+}
