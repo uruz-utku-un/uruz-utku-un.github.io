@@ -13,5 +13,5 @@ kullanıcının kendi sorumluluğundadır.
 
 **Detaylı kullanım koşulları ve lisans şartları** için lütfen aşağıdaki
 belgelere başvurunuz:
-- /LICENSE
-- /docs/legal/TERMS-OF-USE.md
+- [LICENSE](./LICENSE)
+- [Terms of Use](./docs/legal/TERMS-OF-USE.md)
