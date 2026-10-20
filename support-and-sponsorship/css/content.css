@@ -1,0 +1,85 @@
+/* KART BÖLÜMÜ ve KARTLAR */
+.section-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    padding: 20px;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;  /* efekt uygular */
+    text-decoration: none;  /* link alt çizgisini kaldırır */
+    color: inherit;  /* yazı rengini korur */
+    display: block;  /* <a> kart gibi görünür */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.card h3 {
+    margin-top: 15px;
+    color: #1B2A49;  /* lacivert*/
+}
+
+.card p {
+    margin: 10px 0;
+    color: #333;
+}
+
+/* ROZETLER */
+.badge {
+    position: absolute;
+    top: -10px; 
+    left: -10px;
+    background: #445b85;  /* açıklacivert */
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Rozet Renkleri */
+/* destekçi */
+.supporter-l1 .badge {background: #97dfaf}
+.supporter-l2 .badge {background: #c54057}
+.supporter-l3 .badge {background: #a38fdf}
+.supporter-l4 .badge {background: #f3d947}
+.supporter-l5 .badge {background: #78eee2}
+.supporter-l6 .badge {
+    background: linear-gradient(
+    45deg,
+    #79f8eb, /* turkuaz */
+    #ce5ace, /* mor */
+    #d8c55c  /* altın */
+    );
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 0 0 5px #FFD700
+}
+/* sponsor */
+.sponsor-l1 .badge {background: #50C878}
+.sponsor-l2 .badge {background: #960018}
+.sponsor-l3 .badge {background: #8E7CC3}
+.sponsor-l4 .badge {background: #FFD700}
+.sponsor-l5 .badge {background: #40E0D0}
+.sponsor-l6 .badge {
+    background: linear-gradient(
+    45deg,
+    #40E0D0, /* turkuaz */
+    #800080, /* mor */
+    #FFD700  /* altın */
+    );
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 0 0 5px #FFD700
+}
+
+.uruz .badge {background-color: #78eee2;}
+.ethical .badge {background-color: #97dfaf;}
+.important .badge {background-color: #d16275;}
