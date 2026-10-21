@@ -1,0 +1,33 @@
+/* KART BÖLÜMÜ ve KARTLAR */
+.section-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    padding: 20px;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;  /* efekt uygular */
+    text-decoration: none;  /* link alt çizgisini kaldırır */
+    color: inherit;  /* yazı rengini korur */
+    display: block;  /* <a> kart gibi görünür */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.card h3 {
+    margin-top: 15px;
+    color: #1B2A49;  /* lacivert*/
+}
+
+.card p {
+    margin: 10px 0;
+    color: #333;
+}
