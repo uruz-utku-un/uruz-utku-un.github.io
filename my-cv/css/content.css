@@ -1,0 +1,19 @@
+.cv-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.cv-actions {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.cv-actions a {
+    padding: 12px 20px;
+    background: #40E0D0;
+    color: #000;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
